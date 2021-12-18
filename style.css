@@ -1,0 +1,131 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+#logo {
+  height: 100px;
+  width: 100px;
+  text-align: left;
+  border-radius: 100%;
+}
+h1 {
+  background-color: rgb(152, 221, 104);
+  font-size: 150px;
+  margin: 0px;
+  width: 100%;
+  font-family: "Comforter Brush", cursive;
+  font-family: "Shalimar", cursive;
+  color: white;
+  text-align: center;
+}
+h2 {
+  color: white;
+  font-family: "Comforter Brush", cursive;
+  font-family: "Shalimar", cursive;
+  text-align: center;
+  padding: 10px;
+}
+header nav {
+  background-color: black;
+  margin: 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+header nav a {
+  text-decoration: none;
+  font-size: 20px;
+  font-family: "Segoe UI";
+  margin-right: 55px;
+  margin-left: 55px;
+  color: whitesmoke;
+}
+
+a {
+  border-radius: 30px;
+  border-style: hidden;
+}
+
+a:hover {
+  background-color: rgb(95, 139, 63);
+  color: black;
+  padding: 3px;
+}
+body {
+  background-color: black;
+}
+.arranca-pilates {
+  border-style: none;
+}
+
+.presentacion {
+  border-style: groove;
+  margin: 40px;
+}
+
+.profes {
+  height: 100px;
+  width: 100px;
+  border-radius: 10px;
+  border-style: groove;
+  float: left;
+  margin: 10px;
+}
+
+.texto-presentacion {
+  color: white;
+  font-size: 12px;
+  font-family: "Segoe UI";
+  font-style: italic;
+  max-width: 100%;
+  padding: 5px;
+}
+
+.grabaciones {
+  margin: 15px;
+  width: 460px;
+  height: 215px;
+}
+
+#ubicaciones {
+  text-align: center;
+}
+
+iframe {
+  border-radius: 15px;
+}
+
+.listado-clases li {
+  list-style: none;
+  color: white;
+  text-align: justify;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin-left: 40px;
+  margin-top: 10px;
+  list-style-position: outside;
+  font-size: 20px;
+}
+
+#formulario {
+  background-color: rgb(95, 139, 63);
+  margin: auto;
+  margin-top: 15px;
+  text-align: center;
+  padding: 30px;
+  border-style: groove;
+  border-radius: 15px;
+  max-width: 50%;
+}
+
+.info {
+  background-color: black;
+  border-width: 0px;
+}
+
+footer li {
+  list-style: none;
+  text-align: center;
+  color: lightgrey;
+  font-size: 10px;
+  font-family: "Segoe UI";
+}
