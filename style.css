@@ -56,6 +56,11 @@ body {
   border-style: none;
 }
 
+.eventos {
+  width: 75%;
+  height: 500px;
+}
+
 .presentacion {
   border-style: groove;
   margin: 40px;
@@ -149,7 +154,7 @@ footer li {
 
   iframe {
     border-radius: 15px;
-    max-width: 50%;
+    max-width: 75%;
   }
 
   #formulario {
