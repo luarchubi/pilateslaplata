@@ -101,7 +101,7 @@ iframe {
 }
 
 #formulario {
-  background-color: rgb(95, 139, 63);
+  background-color: rgb(152, 221, 104);
   margin: auto;
   margin-top: 15px;
   text-align: center;
@@ -127,4 +127,39 @@ footer li {
 }
 .icono {
   margin-bottom: 0px;
+}
+
+@media screen and (max-width: 768px) {
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  #logo {
+    display: none;
+  }
+  h1 {
+    background-color: rgb(152, 221, 104);
+    font-size: 50px;
+    margin: 0px;
+    width: 100%;
+    color: white;
+    font-style: italic;
+    text-align: center;
+  }
+
+  iframe {
+    border-radius: 15px;
+    max-width: 50%;
+  }
+
+  #formulario {
+    background-color: rgb(152, 221, 104);
+    margin: auto;
+    margin-top: 15px;
+    text-align: center;
+    padding: 30px;
+    border-style: groove;
+    border-radius: 15px;
+    max-width: 100%;
+  }
 }
