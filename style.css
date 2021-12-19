@@ -2,27 +2,25 @@
   margin: 0;
   padding: 0;
 }
+
 #logo {
   height: 100px;
   width: 100px;
-  text-align: left;
   border-radius: 100%;
+  margin: auto;
 }
+
 h1 {
   background-color: rgb(152, 221, 104);
-  font-size: 150px;
+  font-size: 100px;
   margin: 0px;
   width: 100%;
-  font-family: "Comforter Brush", cursive;
-  font-family: "Shalimar", cursive;
   color: white;
-  text-align: center;
+  font-style: italic;
 }
 h2 {
   color: white;
-  font-family: "Comforter Brush", cursive;
-  font-family: "Shalimar", cursive;
-  text-align: center;
+  text-align: left;
   padding: 10px;
 }
 header nav {
@@ -87,10 +85,6 @@ body {
   height: 215px;
 }
 
-#ubicaciones {
-  text-align: center;
-}
-
 iframe {
   border-radius: 15px;
 }
@@ -125,7 +119,12 @@ iframe {
 footer li {
   list-style: none;
   text-align: center;
+  line-height: 15px;
   color: lightgrey;
-  font-size: 10px;
+  font-size: 13px;
   font-family: "Segoe UI";
+  margin: 3px;
+}
+.icono {
+  margin-bottom: 0px;
 }
