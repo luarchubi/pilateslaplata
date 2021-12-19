@@ -24,10 +24,8 @@ h2 {
   padding: 10px;
 }
 header nav {
-  background-color: black;
-  margin: 0px;
   display: flex;
-  flex-direction: row;
+  flex-wrap: wrap;
   justify-content: space-evenly;
 }
 header nav a {
@@ -39,15 +37,22 @@ header nav a {
   color: whitesmoke;
 }
 
+.menumobile {
+  display: none;
+}
+
+/* #mi-item a {
+  color: white;
+} */
 a {
-  border-radius: 30px;
+  border-radius: 20px;
   border-style: hidden;
 }
 
 a:hover {
   background-color: rgb(95, 139, 63);
   color: black;
-  padding: 3px;
+  padding: 1px;
 }
 body {
   background-color: black;
@@ -55,12 +60,12 @@ body {
 .arranca-pilates {
   border-style: none;
 }
-
 .eventos {
   width: 75%;
   height: 500px;
+  display: block;
+  margin: auto;
 }
-
 .presentacion {
   border-style: groove;
   margin: 40px;
@@ -151,6 +156,25 @@ footer li {
     font-style: italic;
     text-align: center;
   }
+  .menumobile {
+    display: block;
+  }
+  header nav {
+    display: none;
+  }
+
+  /* header nav {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  header nav a {
+    text-decoration: none;
+    font-size: 10px;
+    font-family: "Segoe UI";
+
+    color: whitesmoke;
+  } */
 
   iframe {
     border-radius: 15px;
@@ -165,6 +189,12 @@ footer li {
     padding: 30px;
     border-style: groove;
     border-radius: 15px;
+    max-width: 100%;
+  }
+  .campos {
+    max-width: 100%;
+  }
+  #textarea {
     max-width: 100%;
   }
 }
