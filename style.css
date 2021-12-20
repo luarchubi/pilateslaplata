@@ -9,7 +9,17 @@
   border-radius: 100%;
   margin: auto;
 }
+body {
+  background-color: black;
+}
 
+.grilla {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  align-items: center;
+  align-content: stretch;
+}
 h1 {
   background-color: rgb(152, 221, 104);
   font-size: 100px;
@@ -37,13 +47,6 @@ header nav a {
   color: whitesmoke;
 }
 
-.menumobile {
-  display: none;
-}
-
-/* #mi-item a {
-  color: white;
-} */
 a {
   border-radius: 20px;
   border-style: hidden;
@@ -60,33 +63,39 @@ body {
 .arranca-pilates {
   border-style: none;
 }
+
 .eventos {
   width: 75%;
   height: 500px;
   display: block;
   margin: auto;
 }
+
 .presentacion {
-  border-style: groove;
-  margin: 40px;
+  border-style: none;
+  margin: 100px;
+  color: antiquewhite;
+  max-width: 80%;
+  text-align: center;
 }
 
 .profes {
-  height: 100px;
-  width: 100px;
+  height: 300px;
+  width: 300px;
   border-radius: 10px;
   border-style: groove;
-  float: left;
   margin: 10px;
 }
 
 .texto-presentacion {
   color: white;
-  font-size: 12px;
+  font-size: 20px;
   font-family: "Segoe UI";
   font-style: italic;
   max-width: 100%;
   padding: 5px;
+  text-align: center;
+  margin: auto;
 }
 
 .grabaciones {
@@ -121,12 +130,13 @@ iframe {
   max-width: 50%;
 }
 
-.info {
-  background-color: black;
-  border-width: 0px;
+#info {
+  margin-bottom: 0px;
+  text-align: center;
 }
 
 footer li {
+  display: inline;
   list-style: none;
   text-align: center;
   line-height: 15px;
@@ -156,17 +166,12 @@ footer li {
     font-style: italic;
     text-align: center;
   }
-  .menumobile {
-    display: block;
-  }
-  header nav {
-    display: none;
-  }
 
-  /* header nav {
+  header nav {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+    align-items: end;
   }
   header nav a {
     text-decoration: none;
@@ -174,7 +179,20 @@ footer li {
     font-family: "Segoe UI";
 
     color: whitesmoke;
-  } */
+  }
+  .profes {
+    display: none;
+  }
+  .texto-presentacion {
+    color: white;
+    font-size: small;
+    font-family: "Segoe UI";
+    font-style: italic;
+    max-width: 100%;
+    padding: 5px;
+    text-align: center;
+    margin: auto;
+  }
 
   iframe {
     border-radius: 15px;
@@ -196,5 +214,78 @@ footer li {
   }
   #textarea {
     max-width: 100%;
+  }
+  .info {
+    display: none;
+  }
+}
+@media screen and (max-width: 360px) {
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  #logo {
+    display: none;
+  }
+  h1 {
+    background-color: rgb(152, 221, 104);
+    font-size: 50px;
+    margin: 0px;
+    width: 100%;
+    color: white;
+    font-style: italic;
+    text-align: center;
+  }
+
+  header nav {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: end;
+  }
+  header nav a {
+    text-decoration: none;
+    font-size: 10px;
+    font-family: "Segoe UI";
+
+    color: whitesmoke;
+  }
+  .profes {
+    display: none;
+  }
+  .texto-presentacion {
+    color: white;
+    font-size: small;
+    font-family: "Segoe UI";
+    font-style: italic;
+    max-width: 100%;
+    padding: 5px;
+    text-align: center;
+    margin: auto;
+  }
+
+  iframe {
+    border-radius: 15px;
+    max-width: 75%;
+  }
+
+  #formulario {
+    background-color: rgb(152, 221, 104);
+    margin: auto;
+    margin-top: 15px;
+    text-align: center;
+    padding: 30px;
+    border-style: groove;
+    border-radius: 15px;
+    max-width: 100%;
+  }
+  .campos {
+    max-width: 100%;
+  }
+  #textarea {
+    max-width: 100%;
+  }
+  #info {
+    display: none;
   }
 }
