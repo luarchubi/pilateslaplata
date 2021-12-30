@@ -1,0 +1,134 @@
+@import "base";
+@import "mediaqueries";
+@mixin disposicion {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+$relleno: (
+  pad10: 10px,
+  pad5: 5px,
+  pad20: 20px,
+);
+
+$fondo: black;
+body {
+  background-color: $fondo;
+}
+
+h2 {
+  color: red;
+  text-align: left;
+  padding: 10px;
+}
+header nav {
+  @include disposicion;
+  a {
+    border-radius: 5px;
+    border-style: hidden;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: "Segoe UI";
+    margin-right: 55px;
+    margin-left: 55px;
+
+    &:hover {
+      background-color: rgb(95, 139, 63);
+      color: black;
+      padding: 1px;
+    }
+  }
+}
+
+.grilla {
+  @include disposicion;
+  align-items: center;
+  align-content: stretch;
+}
+.arranca-pilates {
+  border-style: none;
+}
+.click {
+  background-color: rgb(95, 139, 63);
+  color: white;
+  font-style: italic;
+  border-radius: 5px;
+  height: 40px;
+  box-shadow: 6px 5px 24px #666666;
+
+  &:hover {
+    background-color: chartreuse;
+    transition: all 0.5s;
+  }
+}
+
+.click2 {
+  @extend .click;
+  padding: "0 10px";
+}
+
+.eventos {
+  width: 75%;
+  height: 500px;
+  display: block;
+  margin: auto;
+}
+
+.presentacion {
+  border-style: none;
+  margin: 100px;
+  color: antiquewhite;
+  max-width: 80%;
+  text-align: center;
+}
+
+.profes {
+  height: 300px;
+  width: 300px;
+  border-radius: 10px;
+  border-style: groove;
+  margin: 10px;
+}
+
+.texto-presentacion {
+  color: white;
+  font-size: 20px;
+  font-family: "Segoe UI";
+  font-style: italic;
+  max-width: 100%;
+  padding: map-get($relleno, pad5);
+  text-align: center;
+  margin: auto;
+}
+
+.grabaciones {
+  margin: 15px;
+  width: 460px;
+  height: 215px;
+}
+
+iframe {
+  border-radius: 15px;
+}
+
+.listado-clases li {
+  list-style: none;
+  color: white;
+  text-align: justify;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin-left: 40px;
+  margin-top: 10px;
+  list-style-position: outside;
+  font-size: 20px;
+}
+
+#formulario {
+  background-color: rgb(152, 221, 104);
+  margin: auto;
+  margin-top: 15px;
+  text-align: center;
+  padding: 30px;
+  border-style: groove;
+  border-radius: 15px;
+  max-width: 50%;
+}

@@ -1,0 +1,143 @@
+@media screen and (max-width: 768px) {
+  #logo {
+    display: none;
+  }
+  h1 {
+    background-color: rgb(152, 221, 104);
+    font-size: 50px;
+    margin: 0px;
+    width: 100%;
+    color: white;
+    font-style: italic;
+    text-align: center;
+  }
+
+  header nav {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: end;
+
+    a {
+      text-decoration: none;
+      font-size: 10px;
+      font-family: "Segoe UI";
+      color: whitesmoke;
+    }
+  }
+
+  .arranca-pilates {
+    border-style: none;
+    height: 100%;
+    width: 100%;
+  }
+
+  .profes {
+    display: none;
+  }
+  .texto-presentacion {
+    color: white;
+    font-size: small;
+    font-family: "Segoe UI";
+    font-style: italic;
+    max-width: 100%;
+    padding: 5px;
+    text-align: center;
+    margin: auto;
+  }
+
+  iframe {
+    border-radius: 15px;
+    max-width: 75%;
+  }
+
+  #formulario {
+    background-color: rgb(152, 221, 104);
+    margin: auto;
+    margin-top: 15px;
+    text-align: center;
+    padding: 30px;
+    border-style: groove;
+    border-radius: 15px;
+    max-width: 100%;
+  }
+  .campos {
+    max-width: 100%;
+  }
+  #textarea {
+    max-width: 100%;
+  }
+  .info {
+    display: none;
+  }
+}
+@media screen and (max-width: 360px) {
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  #logo {
+    display: none;
+  }
+  h1 {
+    background-color: rgb(152, 221, 104);
+    font-size: 50px;
+    margin: 0px;
+    width: 100%;
+    color: white;
+    font-style: italic;
+    text-align: center;
+  }
+
+  header nav {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: end;
+    a {
+      text-decoration: none;
+      font-size: 10px;
+      font-family: "Segoe UI";
+      color: whitesmoke;
+    }
+  }
+
+  .profes {
+    display: none;
+  }
+  .texto-presentacion {
+    color: white;
+    font-size: small;
+    font-family: "Segoe UI";
+    font-style: italic;
+    max-width: 100%;
+    padding: 5px;
+    text-align: center;
+    margin: auto;
+  }
+
+  iframe {
+    border-radius: 15px;
+    max-width: 75%;
+  }
+
+  #formulario {
+    background-color: rgb(152, 221, 104);
+    margin: auto;
+    margin-top: 15px;
+    text-align: center;
+    padding: 30px;
+    border-style: groove;
+    border-radius: 15px;
+    max-width: 100%;
+  }
+  .campos {
+    max-width: 100%;
+  }
+  #textarea {
+    max-width: 100%;
+  }
+  #info {
+    display: none;
+  }
+}
