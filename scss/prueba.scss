@@ -5,15 +5,9 @@
   flex-wrap: wrap;
   justify-content: space-evenly;
 }
-$relleno: (
-  pad10: 10px,
-  pad5: 5px,
-  pad20: 20px,
-);
 
-$fondo: black;
 body {
-  background-color: $fondo;
+  background-color: black;
 }
 
 h2 {
@@ -96,7 +90,7 @@ header nav {
   font-family: "Segoe UI";
   font-style: italic;
   max-width: 100%;
-  padding: map-get($relleno, pad5);
+  padding: 5px;
   text-align: center;
   margin: auto;
 }
