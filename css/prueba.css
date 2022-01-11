@@ -8,6 +8,9 @@
   border-radius: 100%;
   margin: auto; }
 
+body {
+  background-color: black; }
+
 h1 {
   background-color: #98dd68;
   font-size: 100px;
@@ -17,6 +20,7 @@ h1 {
   font-style: italic; }
 
 #info {
+  margin-bottom: 0px;
   text-align: center; }
 
 footer li {
@@ -29,7 +33,7 @@ footer li {
   font-family: "Segoe UI";
   margin: 3px; }
 
-.icono, #info {
+.icono {
   margin-bottom: 0px; }
 
 @media screen and (max-width: 768px) {
@@ -141,30 +145,31 @@ footer li {
   #info {
     display: none; } }
 
-body {
-  background-color: black; }
-
 h2 {
-  color: red;
+  color: white;
   text-align: left;
-  padding: 10px; }
+  padding: 10px;
+  text-align: center; }
 
 header nav {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly; }
   header nav a {
+    color: white;
     border-radius: 5px;
     border-style: hidden;
     text-decoration: none;
     font-size: 20px;
     font-family: "Segoe UI";
     margin-right: 55px;
-    margin-left: 55px; }
+    margin-left: 55px;
+    margin-bottom: 20px; }
     header nav a:hover {
-      background-color: #5f8b3f;
+      background-color: #77f850;
       color: black;
-      padding: 1px; }
+      padding: 1px;
+      transition: 1s; }
 
 .grilla {
   display: flex;
@@ -191,17 +196,21 @@ header nav {
   padding: "0 10px"; }
 
 .eventos {
-  width: 75%;
+  max-width: 100%;
   height: 500px;
   display: block;
   margin: auto; }
 
-.presentacion {
+.presentacion, .direcciones {
   border-style: none;
   margin: 100px;
-  color: antiquewhite;
+  color: white;
   max-width: 80%;
   text-align: center; }
+
+.direcciones {
+  list-style: none;
+  margin: 10px; }
 
 .profes {
   height: 300px;

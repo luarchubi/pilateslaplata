@@ -8,18 +8,17 @@
   justify-content: space-evenly;
 }
 
-body {
-  background-color: black;
-}
 //<! formatea titulo de cada sede
 h2 {
-  color: rgb(95, 139, 63);
+  color: white;
   text-align: left;
   padding: 10px;
+  text-align: center;
 }
 header nav {
   @include disposicion;
   a {
+    color: white;
     border-radius: 5px;
     border-style: hidden;
     text-decoration: none;
@@ -27,11 +26,13 @@ header nav {
     font-family: "Segoe UI";
     margin-right: 55px;
     margin-left: 55px;
+    margin-bottom: 20px;
 
     &:hover {
-      background-color: blue;
+      background-color: rgb(119, 248, 80);
       color: black;
       padding: 1px;
+      transition: 1s;
     }
   }
 }
@@ -65,7 +66,7 @@ header nav {
 }
 
 .eventos {
-  max-width: 50px;
+  max-width: 100%;
   height: 500px;
   display: block;
   margin: auto;
@@ -74,9 +75,14 @@ header nav {
 .presentacion {
   border-style: none;
   margin: 100px;
-  color: antiquewhite;
+  color: white;
   max-width: 80%;
   text-align: center;
+}
+.direcciones {
+  @extend .presentacion;
+  list-style: none;
+  margin: 10px;
 }
 
 .profes {
