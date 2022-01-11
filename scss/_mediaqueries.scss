@@ -49,6 +49,7 @@
   iframe {
     border-radius: 15px;
     max-width: 75%;
+    margin: auto;
   }
 
   #formulario {
@@ -62,7 +63,7 @@
     max-width: 100%;
   }
   .campos {
-    max-width: 100%;
+    max-width: 75%;
   }
   #textarea {
     max-width: 100%;
@@ -119,6 +120,7 @@
   iframe {
     border-radius: 15px;
     max-width: 75%;
+    text-align: center;
   }
 
   #formulario {
@@ -132,7 +134,7 @@
     max-width: 100%;
   }
   .campos {
-    max-width: 100%;
+    max-width: 75%;
   }
   #textarea {
     max-width: 100%;

@@ -86,8 +86,8 @@ header nav {
 }
 
 .profes {
-  height: 300px;
-  width: 300px;
+  height: 200px;
+  width: 200px;
   border-radius: 10px;
   border-style: groove;
   margin: 10px;
@@ -104,6 +104,9 @@ header nav {
   margin: auto;
 }
 
+.card {
+  display: inline-block;
+}
 .grabaciones {
   margin: 15px;
   width: 460px;
@@ -112,6 +115,7 @@ header nav {
 
 iframe {
   border-radius: 15px;
+  margin: auto;
 }
 
 .listado-clases li {

@@ -74,7 +74,8 @@ footer li {
     margin: auto; }
   iframe {
     border-radius: 15px;
-    max-width: 75%; }
+    max-width: 75%;
+    margin: auto; }
   #formulario {
     background-color: #98dd68;
     margin: auto;
@@ -85,7 +86,7 @@ footer li {
     border-radius: 15px;
     max-width: 100%; }
   .campos {
-    max-width: 100%; }
+    max-width: 75%; }
   #textarea {
     max-width: 100%; }
   .info {
@@ -128,7 +129,8 @@ footer li {
     margin: auto; }
   iframe {
     border-radius: 15px;
-    max-width: 75%; }
+    max-width: 75%;
+    text-align: center; }
   #formulario {
     background-color: #98dd68;
     margin: auto;
@@ -139,7 +141,7 @@ footer li {
     border-radius: 15px;
     max-width: 100%; }
   .campos {
-    max-width: 100%; }
+    max-width: 75%; }
   #textarea {
     max-width: 100%; }
   #info {
@@ -213,8 +215,8 @@ header nav {
   margin: 10px; }
 
 .profes {
-  height: 300px;
-  width: 300px;
+  height: 200px;
+  width: 200px;
   border-radius: 10px;
   border-style: groove;
   margin: 10px; }
@@ -229,13 +231,17 @@ header nav {
   text-align: center;
   margin: auto; }
 
+.card {
+  display: inline-block; }
+
 .grabaciones {
   margin: 15px;
   width: 460px;
   height: 215px; }
 
 iframe {
-  border-radius: 15px; }
+  border-radius: 15px;
+  margin: auto; }
 
 .listado-clases li {
   list-style: none;
