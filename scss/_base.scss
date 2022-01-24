@@ -2,6 +2,7 @@
   margin: 0x;
   padding: 0px;
 }
+
 #logo {
   height: 100px;
   width: 100px;
@@ -12,6 +13,26 @@ body {
   background-color: black;
 }
 
+.mibarra {
+  background-color: black;
+  padding: 0px;
+  margin: 3px;
+}
+
+.formatolink {
+  color: rgb(152, 221, 104);
+
+  &:hover {
+    background-color: rgb(152, 221, 104);
+    color: black;
+    opacity: 80%;
+    border-radius: 3px;
+    padding: auto;
+    margin: 1px;
+    transition: 2s;
+  }
+}
+
 h1 {
   background-color: rgb(152, 221, 104);
   font-size: 100px;
@@ -20,6 +41,7 @@ h1 {
   color: white;
   font-style: italic;
 }
+
 #info {
   margin-bottom: 0px;
   text-align: center;
@@ -37,4 +59,11 @@ footer li {
 }
 .icono {
   margin-bottom: 0px;
+}
+.footerLink {
+  color: rgb(152, 221, 104);
+  text-decoration: none;
+  &:hover {
+    color: white;
+  }
 }

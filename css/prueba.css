@@ -11,6 +11,22 @@
 body {
   background-color: black; }
 
+.mibarra {
+  background-color: black;
+  padding: 0px;
+  margin: 3px; }
+
+.formatolink {
+  color: #98dd68; }
+  .formatolink:hover {
+    background-color: #98dd68;
+    color: black;
+    opacity: 80%;
+    border-radius: 3px;
+    padding: auto;
+    margin: 1px;
+    transition: 2s; }
+
 h1 {
   background-color: #98dd68;
   font-size: 100px;
@@ -36,6 +52,12 @@ footer li {
 .icono {
   margin-bottom: 0px; }
 
+.footerLink {
+  color: #98dd68;
+  text-decoration: none; }
+  .footerLink:hover {
+    color: white; }
+
 @media screen and (max-width: 768px) {
   #logo {
     display: none; }
@@ -47,16 +69,6 @@ footer li {
     color: white;
     font-style: italic;
     text-align: center; }
-  header nav {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-items: end; }
-    header nav a {
-      text-decoration: none;
-      font-size: 10px;
-      font-family: "Segoe UI";
-      color: whitesmoke; }
   .arranca-pilates {
     border-style: none;
     height: 100%;
@@ -153,26 +165,6 @@ h2 {
   padding: 10px;
   text-align: center; }
 
-header nav {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly; }
-  header nav a {
-    color: white;
-    border-radius: 5px;
-    border-style: hidden;
-    text-decoration: none;
-    font-size: 20px;
-    font-family: "Segoe UI";
-    margin-right: 55px;
-    margin-left: 55px;
-    margin-bottom: 20px; }
-    header nav a:hover {
-      background-color: #77f850;
-      color: black;
-      padding: 1px;
-      transition: 1s; }
-
 .grilla {
   display: flex;
   flex-wrap: wrap;
@@ -181,7 +173,15 @@ header nav {
   align-content: stretch; }
 
 .arranca-pilates {
-  border-style: none; }
+  max-height: 75%;
+  max-width: 75%;
+  border-style: none;
+  transition: all 0.2s ease-in-out;
+  margin: 1rem;
+  padding: 20px; }
+  .arranca-pilates:hover {
+    transform: scale(1.1);
+    transition: 3s; }
 
 .click, .click2 {
   background-color: #5f8b3f;

@@ -15,27 +15,6 @@ h2 {
   padding: 10px;
   text-align: center;
 }
-header nav {
-  @include disposicion;
-  a {
-    color: white;
-    border-radius: 5px;
-    border-style: hidden;
-    text-decoration: none;
-    font-size: 20px;
-    font-family: "Segoe UI";
-    margin-right: 55px;
-    margin-left: 55px;
-    margin-bottom: 20px;
-
-    &:hover {
-      background-color: rgb(119, 248, 80);
-      color: black;
-      padding: 1px;
-      transition: 1s;
-    }
-  }
-}
 
 .grilla //grilla en menu
 {
@@ -44,7 +23,16 @@ header nav {
   align-content: stretch;
 }
 .arranca-pilates {
+  max-height: 75%;
+  max-width: 75%;
   border-style: none;
+  transition: all 0.2s ease-in-out;
+  margin: 1rem;
+  padding: 20px;
+  &:hover {
+    transform: scale(1.1);
+    transition: 3s;
+  }
 }
 .click {
   background-color: rgb(95, 139, 63);
