@@ -20,7 +20,7 @@ body {
 }
 
 .formatolink {
-  color: rgb(152, 221, 104);
+  color: white;
 
   &:hover {
     background-color: rgb(152, 221, 104);
@@ -52,7 +52,6 @@ footer li {
   list-style: none;
   text-align: center;
   line-height: 15px;
-  color: lightgrey;
   font-size: 13px;
   font-family: "Segoe UI";
   margin: 3px;
@@ -61,9 +60,9 @@ footer li {
   margin-bottom: 0px;
 }
 .footerLink {
-  color: rgb(152, 221, 104);
+  color: white;
   text-decoration: none;
   &:hover {
-    color: white;
+    color: rgb(152, 221, 104);
   }
 }

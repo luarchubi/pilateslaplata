@@ -31,13 +31,64 @@
           />Pilates La Plata
         </h1>
       </div>
-      <nav>
-        <a href="index.html">Home</a>
-        <a href="eventos.html">Eventos</a>
-        <a href="us.html">Quienes somos</a>
-        <a href="clases.html">Clases de pilates</a>
-        <a href="sede.html">Sedes</a>
-        <a href="contacto.html">Contacto</a>
+      <nav class="navbar navbar-expand-lg mibarra">
+        <div class="container-fluid">
+          <button
+            class="navbar-toggler navbar-light bg-light"
+            data-bs-toggle="collapse"
+            data-bs-target="#barra-navegacion"
+          >
+            <span class="navbar-toggler-icon estiloburger"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="barra-navegacion">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item t">
+                <a
+                  class="nav-link active formatolink"
+                  aria-current="page"
+                  href="index.html"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link active formatolink"
+                  aria-current="page"
+                  href="eventos.html"
+                  >Eventos</a
+                >
+              </li>
+              <li class="nav-item formatolink">
+                <a class="nav-link active formatolink" href="us.html">Staff</a>
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link active formatolink"
+                  aria-current="page"
+                  href="clases.html"
+                  >Clases</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link active formatolink"
+                  aria-current="page"
+                  href="sede.html"
+                  >Sede</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link active formatolink"
+                  aria-current="page"
+                  href="contacto.html"
+                  >Contacto</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
       </nav>
     </header>
     <section>
@@ -81,17 +132,22 @@
       <ul>
         <li>
           <img src="img/instagram.png" alt="ig" /><a
+            class="footerLink"
             href="https://www.instagram.com/pilates_laplata/?hl=es"
             >pilates_laplata</a
           >
         </li>
         <li>
           <img src="./img/facebook.png" alt="fb" />
-          <a href="https://www.facebook.com/pilates.laplata.3"
+          <a
+            class="footerLink"
+            href="https://www.facebook.com/pilates.laplata.3"
             >pilates La Plata</a
           >
         </li>
-        <li><img src="./img/email.png" /> pilateslaplataok@gmail.com</li>
+        <li class="footerLink">
+          <img class="icono" src="./img/email.png" />pilateslaplataok@gmail.com
+        </li>
       </ul>
     </footer>
     <script

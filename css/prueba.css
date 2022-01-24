@@ -17,7 +17,7 @@ body {
   margin: 3px; }
 
 .formatolink {
-  color: #98dd68; }
+  color: white; }
   .formatolink:hover {
     background-color: #98dd68;
     color: black;
@@ -44,7 +44,6 @@ footer li {
   list-style: none;
   text-align: center;
   line-height: 15px;
-  color: lightgrey;
   font-size: 13px;
   font-family: "Segoe UI";
   margin: 3px; }
@@ -53,10 +52,10 @@ footer li {
   margin-bottom: 0px; }
 
 .footerLink {
-  color: #98dd68;
+  color: white;
   text-decoration: none; }
   .footerLink:hover {
-    color: white; }
+    color: #98dd68; }
 
 @media screen and (max-width: 768px) {
   #logo {
