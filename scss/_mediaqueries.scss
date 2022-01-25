@@ -29,7 +29,6 @@
     max-width: 100%;
     padding: 5px;
     text-align: center;
-    margin: auto;
   }
 
   iframe {
@@ -54,7 +53,7 @@
   #textarea {
     max-width: 100%;
   }
-  .info {
+  #info {
     display: none;
   }
 }
@@ -74,19 +73,6 @@
     color: white;
     font-style: italic;
     text-align: center;
-  }
-
-  header nav {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-items: end;
-    a {
-      text-decoration: none;
-      font-size: 10px;
-      font-family: "Segoe UI";
-      color: whitesmoke;
-    }
   }
 
   .profes {
