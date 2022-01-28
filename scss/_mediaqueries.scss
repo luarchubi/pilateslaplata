@@ -21,6 +21,12 @@
   .profes {
     display: none;
   }
+
+  .profe-tarjetas {
+    .card-img-top {
+      display: none;
+    }
+  }
   .textos {
     color: white;
     font-size: 10px;
@@ -35,6 +41,7 @@
     border-radius: 15px;
     max-width: 75%;
     margin: auto;
+    text-align: center;
   }
 
   #formulario {

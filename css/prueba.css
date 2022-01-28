@@ -73,6 +73,8 @@ footer li {
     width: 100%; }
   .profes {
     display: none; }
+  .profe-tarjetas .card-img-top {
+    display: none; }
   .textos {
     color: white;
     font-size: 10px;
@@ -84,7 +86,8 @@ footer li {
   iframe {
     border-radius: 15px;
     max-width: 75%;
-    margin: auto; }
+    margin: auto;
+    text-align: center; }
   #formulario {
     background-color: #98dd68;
     margin: auto;
@@ -204,22 +207,12 @@ footer li {
   max-width: 100%;
   padding: 5px;
   text-align: center;
-  margin: auto; }
+  margin: 30px; }
 
 .estilo-tablas {
   background-color: #98dd68;
   color: white;
   margin-top: 5rem; }
-
-.listado-clases li {
-  list-style: none;
-  color: white;
-  text-align: justify;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  margin-left: 40px;
-  margin-top: 10px;
-  list-style-position: outside;
-  font-size: 20px; }
 
 h2 {
   color: white;

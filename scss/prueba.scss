@@ -7,7 +7,6 @@
   flex-wrap: wrap;
   justify-content: space-evenly;
 }
-
 .grilla //grilla en home
 {
   @include disposicion;
@@ -74,24 +73,13 @@
   max-width: 100%;
   padding: 5px;
   text-align: center;
-  margin: auto;
+  margin: 30px;
 }
 
 .estilo-tablas {
   background-color: rgb(152, 221, 104);
   color: white;
   margin-top: 5rem;
-}
-
-.listado-clases li {
-  list-style: none;
-  color: white;
-  text-align: justify;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  margin-left: 40px;
-  margin-top: 10px;
-  list-style-position: outside;
-  font-size: 20px;
 }
 
 h2 {
