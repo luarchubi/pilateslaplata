@@ -21,9 +21,9 @@
   .profes {
     display: none;
   }
-  .texto-presentacion {
+  .textos {
     color: white;
-    font-size: small;
+    font-size: 10px;
     font-family: "Segoe UI";
     font-style: italic;
     max-width: 100%;
@@ -78,7 +78,7 @@
   .profes {
     display: none;
   }
-  .texto-presentacion {
+  .textos {
     color: white;
     font-size: small;
     font-family: "Segoe UI";
@@ -106,10 +106,10 @@
     max-width: 100%;
   }
   .campos {
-    max-width: 75%;
+    max-width: 50%;
   }
   #textarea {
-    max-width: 100%;
+    max-width: 75%;
   }
   #info {
     display: none;

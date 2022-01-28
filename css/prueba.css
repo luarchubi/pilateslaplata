@@ -5,8 +5,7 @@
 #logo {
   height: 100px;
   width: 100px;
-  border-radius: 100%;
-  margin: auto; }
+  border-radius: 100%; }
 
 body {
   background-color: black; }
@@ -74,9 +73,9 @@ footer li {
     width: 100%; }
   .profes {
     display: none; }
-  .texto-presentacion {
+  .textos {
     color: white;
-    font-size: small;
+    font-size: 10px;
     font-family: "Segoe UI";
     font-style: italic;
     max-width: 100%;
@@ -118,7 +117,7 @@ footer li {
     text-align: center; }
   .profes {
     display: none; }
-  .texto-presentacion {
+  .textos {
     color: white;
     font-size: small;
     font-family: "Segoe UI";
@@ -141,9 +140,9 @@ footer li {
     border-radius: 15px;
     max-width: 100%; }
   .campos {
-    max-width: 75%; }
+    max-width: 50%; }
   #textarea {
-    max-width: 100%; }
+    max-width: 75%; }
   #info {
     display: none; } }
 
@@ -197,9 +196,9 @@ footer li {
   border-style: groove;
   margin: 10px; }
 
-.texto-presentacion {
+.textos {
   color: white;
-  font-size: 20px;
+  font-size: 16px;
   font-family: "Segoe UI";
   font-style: italic;
   max-width: 100%;
@@ -207,10 +206,10 @@ footer li {
   text-align: center;
   margin: auto; }
 
-.grabaciones {
-  margin: 15px;
-  width: 460px;
-  height: 215px; }
+.estilo-tablas {
+  background-color: #98dd68;
+  color: white;
+  margin-top: 5rem; }
 
 .listado-clases li {
   list-style: none;
