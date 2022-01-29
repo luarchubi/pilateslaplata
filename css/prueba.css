@@ -98,7 +98,7 @@ footer li {
     border-radius: 15px;
     max-width: 100%; }
   .campos {
-    max-width: 75%; }
+    max-width: 100%; }
   #textarea {
     max-width: 100%; }
   #info {
@@ -143,9 +143,9 @@ footer li {
     border-radius: 15px;
     max-width: 100%; }
   .campos {
-    max-width: 50%; }
+    max-width: 100%; }
   #textarea {
-    max-width: 75%; }
+    max-width: 100%; }
   #info {
     display: none; } }
 
@@ -211,7 +211,6 @@ footer li {
 
 .estilo-tablas {
   background-color: #98dd68;
-  color: white;
   margin-top: 5rem; }
 
 h2 {
