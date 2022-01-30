@@ -209,9 +209,14 @@ footer li {
   text-align: center;
   margin: 30px; }
 
-.estilo-tablas {
+.estilo-tablas, .estilo-tablas-2 {
   background-color: #98dd68;
-  margin-top: 5rem; }
+  margin-top: 5rem;
+  text-align: center; }
+
+.estilo-tablas-2 {
+  max-width: 50%;
+  margin: auto; }
 
 h2 {
   color: white;

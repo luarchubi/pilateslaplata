@@ -79,6 +79,12 @@
 .estilo-tablas {
   background-color: rgb(152, 221, 104);
   margin-top: 5rem;
+  text-align: center;
+}
+.estilo-tablas-2 {
+  @extend .estilo-tablas;
+  max-width: 50%;
+  margin: auto;
 }
 
 h2 {
