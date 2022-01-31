@@ -69,7 +69,6 @@ footer li {
   #logo {
     display: none; }
   h1 {
-    background-color: #98dd68;
     font-size: 50px;
     margin: 0px;
     width: 100%;
@@ -89,7 +88,7 @@ footer li {
     font-size: 10px;
     font-family: "Segoe UI";
     font-style: italic;
-    max-width: 100%;
+    width: 100%;
     padding: 5px;
     text-align: center; }
   #formulario {
@@ -115,7 +114,6 @@ footer li {
   #logo {
     display: none; }
   h1 {
-    background-color: #98dd68;
     font-size: 50px;
     margin: 0px;
     width: 100%;
@@ -129,10 +127,9 @@ footer li {
     font-size: small;
     font-family: "Segoe UI";
     font-style: italic;
-    max-width: 100%;
+    width: 100%;
     padding: 5px;
-    text-align: center;
-    margin: auto; }
+    text-align: center; }
   #formulario {
     background-color: #98dd68;
     margin: auto;
@@ -188,7 +185,7 @@ footer li {
   margin: auto; }
 
 .presentacion, .direcciones {
-  margin: 100px;
+  margin: 150px;
   color: white;
   text-align: center; }
 
@@ -206,8 +203,7 @@ footer li {
   font-style: italic;
   max-width: 100%;
   padding: 5px;
-  text-align: center;
-  margin: 30px; }
+  text-align: center; }
 
 .estilo-tablas, .estilo-tablas-2 {
   background-color: #98dd68;
